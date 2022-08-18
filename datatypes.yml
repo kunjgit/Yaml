@@ -1,6 +1,6 @@
 # string
 name: kunj patel
-fruit: "apple"
+fruit: !!str "apple"
 job: 'swe'
 
 # what if we want to have some things in multiple lines what we should do for itt
@@ -24,6 +24,8 @@ gender: !!int 0b10100
 
 # some floating point numbers
 marks: !!float 56.56
+age: !!float .infi
+
 
 
 ...
