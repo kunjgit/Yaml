@@ -13,4 +13,9 @@ cities:
  - dubai
  - kunj
  - gujrat
+---
+{apple : "red fruit", age : 32}
+---
+# another structure
+cities : [kunj,dubai,gujrat]
 ...
