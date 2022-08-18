@@ -1,0 +1,16 @@
+# these are some key value pair in yaml
+
+"kunj" : 87
+"kunal" : 86
+---
+# list
+- apple
+- mango
+- watermelon
+---
+# block style
+cities:
+ - dubai
+ - kunj
+ - gujrat
+...
