@@ -40,6 +40,12 @@ name: kunj
 info: 
   medals: 1
   desc: very smart you are
+  
+# same as above only syntax diffrence
+student: !!map
+name: kunj
+info:  {medals: 1, desc: very smart you are}
+ 
 
 # keys will have duplicates pairs actually
 pair ex: !!pairs
