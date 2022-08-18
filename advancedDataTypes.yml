@@ -62,3 +62,32 @@ set ex: !!set
  ? name
  ? names
 
+
+#  if you want to have something like sequence as so you have to use dictionary
+person: !!omap
+ - kunj:
+    ed: ce
+    marks: 541
+ - manav:
+    ed: it
+    marks: 798
+
+# reusing some of the properties like pro anchors
+
+hobbies: &hobby
+  book: hello
+  color: pink
+
+
+person: 
+  name: kunj patel
+  <<: * hobby
+  color: red
+
+# this will look like something below as noted by the things
+
+person: 
+  name: kunj patel
+  book: hello
+  color: red
+
