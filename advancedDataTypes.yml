@@ -40,7 +40,7 @@ name: kunj
 info: 
   medals: 1
   desc: very smart you are
-  
+
 # same as above only syntax diffrence
 student: !!map
 name: kunj
@@ -51,4 +51,14 @@ info:  {medals: 1, desc: very smart you are}
 pair ex: !!pairs
  - name: kunj
  - name: kunal
+
+pair ex: !!pairs [name: kunj,name: kunal]
+
+
+
+# sets will allow you only the unique keys not the duplicate once at all
+
+set ex: !!set
+ ? name
+ ? names
 
