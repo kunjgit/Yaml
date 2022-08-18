@@ -25,8 +25,17 @@ gender: !!int 0b10100
 # some floating point numbers
 marks: !!float 56.56
 age: !!float .infi
+name: .nan
+expo: !!float 4.56E45
+# some null value types
+name: !!null null
+# or we can have ~ also  or we can have NULL
+~: it doesn't contain any sort of key value basically null key
 
 
+# time and date
+date: 18-08-2022
+time: 2001-12-15T02:59:43.1Z +5.30
 
 ...
 
