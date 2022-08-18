@@ -13,5 +13,14 @@ so it will actually consider it as multiple lines
 anotherdesc : >
 this is written in the multiple lines but when this file will 
 be deserialized it will be in the single line itself
+
+gender: true #y Y True etc
+
+
+#specified datatypes
+age: !!int 32
+gender: !!int -89
+gender: !!int 0b10100
+
 ...
 
