@@ -22,5 +22,9 @@ age: !!int 32
 gender: !!int -89
 gender: !!int 0b10100
 
+# some floating point numbers
+marks: !!float 56.56
+
+
 ...
 
