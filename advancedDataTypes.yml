@@ -1,0 +1,48 @@
+student: !!seq
+ - name
+ - age
+ - roll_no
+ - mobile
+ - address
+
+student: [name,age,etc]
+
+
+# sparse sequence
+sparse seq:
+ - name
+ - 
+ - null
+ - age 
+ - adress
+
+
+#  nested sequences are also available into this
+
+student:
+- 
+ - name
+ - age
+ - marks
+ - extra information
+-
+ - medals
+ - language
+ - native place
+ - etc
+
+
+# maps that are key valued pairs are actually used into it used in the yaml files
+!!map 
+
+student: !!map
+name: kunj
+info: 
+  medals: 1
+  desc: very smart you are
+
+# keys will have duplicates pairs actually
+pair ex: !!pairs
+ - name: kunj
+ - name: kunal
+
