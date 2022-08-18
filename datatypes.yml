@@ -1,0 +1,17 @@
+# string
+name: kunj patel
+fruit: "apple"
+job: 'swe'
+
+# what if we want to have some things in multiple lines what we should do for itt
+---
+desc : |
+hello this is multiline and
+it will be treated as it is written in this
+so it will actually consider it as multiple lines 
+---
+anotherdesc : >
+this is written in the multiple lines but when this file will 
+be deserialized it will be in the single line itself
+...
+
